@@ -1,5 +1,6 @@
-const env = require("../.env")
-const port = env.PORT;
+const dotenv = require('dotenv');
+dotenv.config();
+const port = process.env.PORT;
 const server = require("./config/server");
 const connection = require("./config/connection");
 const Tables = require("./config/tables");
