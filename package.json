@@ -1,0 +1,21 @@
+{
+  "name": "node-mysql",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": "https://github.com/J-Meira/node-mysql",
+  "author": "Jonathan Meira <jonathanmeira@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
